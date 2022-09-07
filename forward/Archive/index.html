@@ -475,6 +475,12 @@
 <p>这可能是我写的最后一篇文章了，倒不是因为我黔驴技穷了，而是因为形势所迫，不得不作出这种选择了。有人说你是在耍矫情，随便你说好了，我毫不争辩。</p>
 </blockquote>
 <p>凡是学过哲学的人们都能理解，尤其是阴阳论，阴的吸引力在于阳，阳的吸引力在于阴。阴阳转换，阴不会转换成阴，阳不会转换成阳。人类社会中可能出现过同性恋，物理学上绝对不会发生同性恋，不会正电子吸引另外一个正电子，而是吸引另外一个负电子。</p>
+<div class="highlight"><span class="filename">demo.py</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">def</span> <span class="nf">sayhi</span><span class="p">():</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="k">return</span> <span class="s2">&quot;hi,Python全栈开发&quot;</span> <span class="c1"># (1)</span>
+</code></pre></div>
+<ol>
+<li>这是我自由注释的内容，欢迎关注我的公众号。</li>
+</ol>
 <p>老子是一个伟大的哲学家和思想家，当一个人伟大到一定的程度后，必然混成众叛亲离，孤寡伶仃。</p>
 <h3 id="_1">表格</h3>
 <table>
@@ -527,51 +533,51 @@
 <ul>
 <li>代码</li>
 </ul>
-<pre><code class="language-tex">% 指定文档类型，以%开头的行是注释行
-\documentclass[a4paper,12pt]{article} 
-% 使用ctex包支持中文
-\usepackage{ctex}
-% 开始文档
-\begin{document}
-% 创建标题页的内容
-\title {C语言程序设计}
-\author{ldc}
-\date{2019-5-1}
-% 生成标题
-\maketitle
-
-% 设置页码格式是罗马数字
-\pagenumbering{roman}
-% 生成目录
-\tableofcontents
-% 插入新页
-\newpage
-% 设置页码格式是阿拉伯数字
-\pagenumbering{arabic}
-
-% 文档内容
-% 下面是章节
-\section{概述}
-C语言的基本概述。
-
-\section{算法}
-
-% 分节
-\subsection{算法的定义}
-% 定义标签
-\label{sec11}
-描述算法的定义和特性。
-
-\subsection{算法的表示和描述}
-\label{sec12}
-描述有什么方法进行算法的表示。
-
-\section{C语言的控制结构}
-根据 第\pageref{sec11}页\ref{sec11}对算法的描述，可以归纳出三种基本算法结构，这些都有C语言的对应控制结构。
-
-% 结束文档
-\end{document}
-</code></pre>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c">% 指定文档类型，以%开头的行是注释行</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">\documentclass</span><span class="na">[a4paper,12pt]</span><span class="nb">{</span>article<span class="nb">}</span> 
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="c">% 使用ctex包支持中文</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="k">\usepackage</span><span class="nb">{</span>ctex<span class="nb">}</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="c">% 开始文档</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="c">% 创建标题页的内容</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="k">\title</span> <span class="nb">{</span>C语言程序设计<span class="nb">}</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="k">\author</span><span class="nb">{</span>ldc<span class="nb">}</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="k">\date</span><span class="nb">{</span>2019-5-1<span class="nb">}</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="c">% 生成标题</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="k">\maketitle</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="c">% 设置页码格式是罗马数字</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="k">\pagenumbering</span><span class="nb">{</span>roman<span class="nb">}</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="c">% 生成目录</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="k">\tableofcontents</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="c">% 插入新页</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="k">\newpage</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="c">% 设置页码格式是阿拉伯数字</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="k">\pagenumbering</span><span class="nb">{</span>arabic<span class="nb">}</span>
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="c">% 文档内容</span>
+<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="c">% 下面是章节</span>
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="k">\section</span><span class="nb">{</span>概述<span class="nb">}</span>
+<a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a>C语言的基本概述。
+<a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a>
+<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a><span class="k">\section</span><span class="nb">{</span>算法<span class="nb">}</span>
+<a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a>
+<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a><span class="c">% 分节</span>
+<a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a><span class="k">\subsection</span><span class="nb">{</span>算法的定义<span class="nb">}</span>
+<a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a><span class="c">% 定义标签</span>
+<a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a><span class="k">\label</span><span class="nb">{</span>sec11<span class="nb">}</span>
+<a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a>描述算法的定义和特性。
+<a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a>
+<a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a><span class="k">\subsection</span><span class="nb">{</span>算法的表示和描述<span class="nb">}</span>
+<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a><span class="k">\label</span><span class="nb">{</span>sec12<span class="nb">}</span>
+<a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a>描述有什么方法进行算法的表示。
+<a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a>
+<a id="__codelineno-1-40" name="__codelineno-1-40" href="#__codelineno-1-40"></a><span class="k">\section</span><span class="nb">{</span>C语言的控制结构<span class="nb">}</span>
+<a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a>根据 第<span class="k">\pageref</span><span class="nb">{</span>sec11<span class="nb">}</span>页<span class="k">\ref</span><span class="nb">{</span>sec11<span class="nb">}</span>对算法的描述，可以归纳出三种基本算法结构，这些都有C语言的对应控制结构。
+<a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a>
+<a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a><span class="c">% 结束文档</span>
+<a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a><span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</code></pre></div>
 <p>原因是演唱《阳春白雪》时候，他要使出最高的唱歌本领，五音协调，唱腔高亢宛转，扬其声而为商音，抑其声而为羽音，夹杂运用流动的徵音，音调既有感情又富有变化，悠扬动听，这就很少有人能跟着唱了，跟着他应和帮腔的人就只有几个了。</p>
 <p>如果楚襄王也是一个作诗高手，他是可以理解宋玉的处境的，可惜他连政治都不懂，作诗更不行。如果他像李煜一样把江山丢了，屈原也不至于投江自杀了，中国也不会诞生一个端午节了。</p>
 <p>如果幼儿园的小朋友都读懂道德经，小学生完全可以跟老子排排坐，中学生都认为老子不过尔尔，老子还至于去深山老林中归隐了吗？</p>
